@@ -37,6 +37,7 @@ def printList(arr, n):
 # main
 t = int(stdin.readline().strip())
 
+
 while t > 0:
     arr, n = takeInput()
     sortZeroesAndOne(arr, n)
