@@ -9,7 +9,6 @@ def reverseEachWord(string):
     for word in new_list:
         for reversed_word in range(len(word) - 1, -1, -1):
             answer += word[reversed_word]
-
         answer += " "
     return answer
 
